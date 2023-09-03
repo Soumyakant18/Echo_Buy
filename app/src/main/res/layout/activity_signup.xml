@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup_activity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginleft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardsignup"
+       android:layout_centerHorizontal="true"
+        app:cardCornerRadius="10dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="40dp"
+            android:paddingRight="19dp"
+            android:paddingLeft="19dp"
+            android:paddingBottom="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:inputType="text"
+                android:id="@+id/username"
+                android:textColorHint="#0CA697"
+                android:drawableStart="@drawable/reguser"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                >
+
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:hint="User E-mail"
+                android:textColorHint="#0CA697"
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/regmail"
+                android:drawablePadding="15dp"
+                android:id="@+id/Email"
+                android:layout_marginTop="17dp"
+                android:ems="10">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:id="@+id/putpassword"
+                android:hint="password"
+                android:layout_marginTop="17dp"
+                android:textColorHint="#0CA697"
+                android:drawableStart="@drawable/reglock"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                >
+
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:hint="Confirm password"
+                android:layout_marginTop="17dp"
+                android:textColorHint="#0CA697"
+                android:id="@+id/confirmpassord"
+                android:drawableStart="@drawable/logpass"
+                android:drawablePadding="15dp">
+
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already have an account"
+                android:textAlignment="center"
+                android:layout_marginTop="60dp"
+                android:id="@+id/already">
+
+            </TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:layout_marginTop="27dp"
+                android:id="@+id/btnregister"
+                android:layout_marginLeft="120dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
