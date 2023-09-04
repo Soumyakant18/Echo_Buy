@@ -15,7 +15,7 @@ public class loginactivity extends AppCompatActivity {
 
         EditText editTextname,editTextpassword;
 Button button;
-private TextView textView;
+private TextView textViewlogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
@@ -23,7 +23,7 @@ private TextView textView;
         EditText editTextname=(EditText) findViewById (R.id.loginuser);
         EditText editTextpassword = (EditText) findViewById (R.id.logpassword);
             Button button =(Button) findViewById (R.id.btnlogin);
-            textView =(TextView) findViewById (R.id.logintext);
+            textViewlogin =(TextView) findViewById (R.id.logintext);
 
 
      button.setOnClickListener (new View.OnClickListener ( ) {
@@ -48,14 +48,12 @@ private TextView textView;
          }
      });
 
-        textView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-             Intent intent = new Intent (loginactivity.this, Signup_activity.class);
-             startActivity (intent);
-            }
-        });
-
+      textViewlogin.setOnClickListener (new View.OnClickListener ( ) {
+          @Override
+          public void onClick(View view) {
+              Intent intent=new Intent (loginactivity.this, Signup_activity.class);
+              startActivity (intent);
+          }
+      });
     }
 }

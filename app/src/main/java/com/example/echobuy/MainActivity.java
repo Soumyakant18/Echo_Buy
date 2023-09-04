@@ -26,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button2.setOnClickListener (new View.OnClickListener ( ) {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent (getApplicationContext (), Signup_activity.class);
-                startActivity (intent);
-            }
-        });
+      button2.setOnClickListener (new View.OnClickListener ( ) {
+          @Override
+          public void onClick(View view) {
+              Intent intent=new Intent (MainActivity.this, Signup_activity.class);
+              startActivity (intent);
+          }
+      });
     }
 }
