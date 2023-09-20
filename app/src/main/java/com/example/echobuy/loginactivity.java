@@ -1,15 +1,14 @@
 package com.example.echobuy;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.renderscript.Sampler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class loginactivity extends AppCompatActivity {
 
@@ -20,11 +19,12 @@ private TextView textViewlogin;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_loginactivity);
+
+
         EditText editTextname=(EditText) findViewById (R.id.loginuser);
         EditText editTextpassword = (EditText) findViewById (R.id.logpassword);
             Button button =(Button) findViewById (R.id.btnlogin);
             textViewlogin =(TextView) findViewById (R.id.logintext);
-
 
      button.setOnClickListener (new View.OnClickListener ( ) {
          @Override
