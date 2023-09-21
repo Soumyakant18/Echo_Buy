@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.HomeFragment"
+    android:backgroundTint="@color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textviewfashion"
         android:textStyle="bold"
+        android:drawableStart="@drawable/echo_item_icon"
+        android:drawablePadding="9dp"
         android:textSize="20dp"
         android:textAlignment="center"
         android:layout_alignParentTop="true"
@@ -24,82 +27,49 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
         android:id="@+id/mainline"
-        android:layout_below="@+id/textviewfashion">
+        android:layout_below="@+id/textviewfashion"
+        android:scrollbarThumbVertical="@color/lightgreen"
+        android:scrollbarSize="0.5sp"
+        android:scrollbarStyle="outsideOverlay">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:orientation="vertical">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="30dp">
+        android:padding="10dp">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
             app:cardCornerRadius="10dp"
             android:backgroundTint="@color/black">
 
         </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="30dp"
-            app:cardCornerRadius="10dp"
-            android:backgroundTint="@color/black">
-
-
-        </androidx.cardview.widget.CardView>
-
 
     </LinearLayout>
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="30dp">
+            android:layout_height="match_parent"
+            android:padding="10dp">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="160dp"
-                app:cardCornerRadius="10dp"
-                android:backgroundTint="@color/black">
+                android:layout_width="185dp"
+                android:layout_height="180dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="160dp"
-                android:layout_marginLeft="30dp"
-                app:cardCornerRadius="10dp"
-                android:backgroundTint="@color/black"/>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="30dp">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="160dp"
-                app:cardCornerRadius="10dp"
-                android:backgroundTint="@color/black">
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="160dp"
-                android:layout_marginLeft="30dp"
+                android:layout_width="185dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="20dp"
                 android:backgroundTint="@color/black"
                 app:cardCornerRadius="10dp" />
 
@@ -108,23 +78,67 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="30dp">
+            android:layout_height="match_parent"
+            android:padding="10dp">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="160dp"
-                app:cardCornerRadius="10dp"
-                android:backgroundTint="@color/black">
+                android:layout_width="185dp"
+                android:layout_height="180dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="160dp"
-                android:layout_marginLeft="30dp"
-                app:cardCornerRadius="10dp"
-                android:backgroundTint="@color/black"/>
+                android:layout_width="185dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="185dp"
+                android:layout_height="180dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="185dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="185dp"
+                android:layout_height="180dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="185dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp" />
 
 
         </LinearLayout>
