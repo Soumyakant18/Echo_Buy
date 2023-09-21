@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
-    android:backgroundTint="@color/white">
+    android:backgroundTint="@color/white"
+    android:background="@drawable/and">
 
     <TextView
         android:layout_width="wrap_content"
@@ -61,17 +62,29 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
-                android:backgroundTint="@color/black"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                android:background="@drawable/and">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jacket">
+                </ImageView>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
+                android:background="@drawable/and"
                 android:layout_marginLeft="20dp"
-                android:backgroundTint="@color/black"
-                app:cardCornerRadius="10dp" />
+                app:cardCornerRadius="10dp" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shoe">
+
+                </ImageView>
+            </androidx.cardview.widget.CardView>
 
 
         </LinearLayout>
@@ -84,8 +97,14 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
-                android:backgroundTint="@color/black"
+                android:background="@drawable/and"
                 app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pantsimg">
+
+                </ImageView>
 
             </androidx.cardview.widget.CardView>
 
@@ -93,8 +112,15 @@
                 android:layout_width="185dp"
                 android:layout_height="180dp"
                 android:layout_marginLeft="20dp"
-                android:backgroundTint="@color/black"
-                app:cardCornerRadius="10dp" />
+                android:background="@drawable/and"
+                app:cardCornerRadius="10dp" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/wtchimage">
+
+                </ImageView>
+            </androidx.cardview.widget.CardView>
 
 
         </LinearLayout>
@@ -106,8 +132,14 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
-                android:backgroundTint="@color/black"
+                android:background="@drawable/and"
                 app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sofa">
+
+                </ImageView>
 
             </androidx.cardview.widget.CardView>
 
@@ -115,8 +147,15 @@
                 android:layout_width="185dp"
                 android:layout_height="180dp"
                 android:layout_marginLeft="20dp"
-                android:backgroundTint="@color/black"
-                app:cardCornerRadius="10dp" />
+                android:background="@drawable/and"
+                app:cardCornerRadius="10dp" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mobiles">
+
+                </ImageView>
+            </androidx.cardview.widget.CardView>
 
 
         </LinearLayout>
@@ -128,17 +167,30 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
-                android:backgroundTint="@color/black"
+                android:background="@drawable/and"
                 app:cardCornerRadius="10dp">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+            android:src="@drawable/bag">
 
+</ImageView>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
                 android:layout_marginLeft="20dp"
-                android:backgroundTint="@color/black"
-                app:cardCornerRadius="10dp" />
+                android:background="@drawable/and"
+                app:cardCornerRadius="10dp" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/toy">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
 
 
         </LinearLayout>
