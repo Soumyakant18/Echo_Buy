@@ -9,12 +9,16 @@
             android:icon="@drawable/echo_home_icon"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_order"
+            android:icon="@drawable/echo_cart_icon"
+            android:title="Your order" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_account"
+            android:icon="@drawable/loguser"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/echo_log_icon"
+            android:title="Logout" />
     </group>
 </menu>
