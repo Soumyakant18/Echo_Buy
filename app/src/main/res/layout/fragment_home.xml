@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
-    android:background="@drawable/green">
+    android:background="@drawable/yuoip">
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,7 +19,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:padding="10dp"
-        android:textColor="#FF9800"
+        android:textColor="@color/lightgreen"
         android:text="Choose your latest style">
 
     </TextView>
