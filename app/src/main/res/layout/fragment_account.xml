@@ -4,7 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.Account.AccountFragment">
+    tools:context=".ui.Account.AccountFragment"
+    android:background="@drawable/img">
 
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/reguser"
+    android:id="@+id/photoaccount"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="170dp">
 
+</ImageView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:layout_below="@+id/photoaccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="user name"
+        android:drawableStart="@drawable/loguser"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/lightgreen"
+        android:id="@+id/accname">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/accname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint=" user email"
+        android:drawableStart="@drawable/regmail"
+        android:drawablePadding="10dp"
+        android:minHeight="48dp"
+        android:textColorHint="@color/lightgreen"
+        android:id="@+id/accemail">
+
+    </EditText>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/lightgreen"
+        android:id="@+id/btnacc"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:layout_centerHorizontal="true">
+
+    </Button>
 </RelativeLayout>
