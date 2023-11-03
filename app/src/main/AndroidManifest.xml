@@ -13,8 +13,11 @@
         android:theme="@style/Theme.EchoBuy"
         tools:targetApi="31">
         <activity
+            android:name=".listviewitem"
+            android:exported="false" />
+        <activity
             android:name=".splash"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,9 +40,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
