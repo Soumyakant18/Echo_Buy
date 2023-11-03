@@ -16,6 +16,13 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.echobuy.R;
 import com.example.echobuy.databinding.FragmentHomeBinding;
 import com.example.echobuy.listviewitem;
+import com.example.echobuy.listviewitembag;
+import com.example.echobuy.listviewitemfurn;
+import com.example.echobuy.listviewitempant;
+import com.example.echobuy.listviewitemphone;
+import com.example.echobuy.listviewitemshoe;
+import com.example.echobuy.listviewitemtoy;
+import com.example.echobuy.listviewitemwatch;
 
 public class HomeFragment extends Fragment {
 
@@ -49,6 +56,69 @@ private CardView crd1,crd2,crd3,crd4,crd5,crd6,crd7,crd8;
             public void onClick(View v) {
                 // Navigate to the itemlist fragment when crd1 is clicked
                 Intent intent = new Intent(getActivity(), listviewitem.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+        crd2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), listviewitemshoe.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+        crd3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), listviewitempant.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+        crd4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), listviewitemwatch.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+        crd5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), listviewitemfurn.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+        crd6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), listviewitemphone.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+        crd7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), listviewitembag.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+        crd8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), listviewitemtoy.class);
                 intent.putExtra("key", "value");
                 startActivity(intent);
             }
