@@ -70,6 +70,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
+                android:id="@+id/cardshirt"
                 app:cardCornerRadius="10dp"
                 android:background="@color/white">
 
@@ -85,6 +86,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
+                android:id="@+id/cardshoe"
                 android:background="@color/white"
                 android:layout_marginLeft="20dp"
                 app:cardCornerRadius="10dp" >
@@ -107,6 +109,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
+                android:id="@+id/cardpant"
                 android:background="@color/white"
                 app:cardCornerRadius="10dp">
                 <ImageView
@@ -121,6 +124,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
+                android:id="@+id/cardwatch"
                 android:layout_marginLeft="20dp"
                 android:background="@color/white"
                 app:cardCornerRadius="10dp" >
@@ -142,6 +146,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
+                android:id="@+id/cardfurn"
                 android:background="@color/white"
                 app:cardCornerRadius="10dp">
                 <ImageView
@@ -157,6 +162,7 @@
                 android:layout_width="185dp"
                 android:layout_height="180dp"
                 android:layout_marginLeft="20dp"
+                android:id="@+id/cardphone"
                 android:background="@color/white"
                 app:cardCornerRadius="10dp" >
                 <ImageView
@@ -177,6 +183,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
                 android:layout_height="180dp"
+                android:id="@+id/cardbag"
                 android:background="@color/white"
                 app:cardCornerRadius="10dp">
 <ImageView
@@ -191,6 +198,7 @@
                 android:layout_width="185dp"
                 android:layout_height="180dp"
                 android:layout_marginLeft="20dp"
+                android:id="@+id/cardtoy"
                 android:background="@color/white"
                 app:cardCornerRadius="10dp" >
                 <ImageView
