@@ -10,9 +10,15 @@ public class listviewitemfurn extends AppCompatActivity {
     private ListView listViewfurn;
     private CustomAdapter customAdapter;
     private pojo[] items = {
-            new pojo("Item 1", R.drawable.echo_cart_icon, "Text for Item 1", "More text for Item 1"),
-            new pojo("Item 2", R.drawable.echo_cart_icon, "Text for Item 2", "More text for Item 2"),
-            new pojo("Item 3", R.drawable.echo_cart_icon, "Text for Item 3", "More text for Item 3")
+            new pojo("Neel kamal", R.drawable.sofa1, "dinning table", "RS: 1299"),
+            new pojo("century", R.drawable.sofa2, "study desk", "RS: 1799"),
+            new pojo("century", R.drawable.sofa3, "powder table", "RS: 7299"),
+            new pojo("IKEA", R.drawable.sofa4, "sofa table", "RS: 4579"),
+            new pojo("century", R.drawable.sofa5, "tv set", "RS: 999"),
+            new pojo("IKEA", R.drawable.sofa6, "sofa table", "RS: 4229"),
+            new pojo("Neel kamal", R.drawable.sofa7, "coffee table", "RS: 3699"),
+            new pojo("Lotus", R.drawable.sofa8, "stool", "RS: 822")
+
     };
 
     @Override
