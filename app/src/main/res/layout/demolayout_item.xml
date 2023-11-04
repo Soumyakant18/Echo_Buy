@@ -57,5 +57,5 @@
         android:src="@drawable/cart_spice"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="135dp"
-        android:layout_marginRight="9dp"/>
+        android:layout_marginRight="19dp"/>
 </RelativeLayout>

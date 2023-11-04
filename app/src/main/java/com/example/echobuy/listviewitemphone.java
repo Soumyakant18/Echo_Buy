@@ -11,9 +11,12 @@ public class listviewitemphone extends AppCompatActivity {
     private CustomAdapter customAdapter;
 
     private pojo[] items = {
-            new pojo("Item 1", R.drawable.echo_cart_icon, "Text for Item 1", "More text for Item 1"),
-            new pojo("Item 2", R.drawable.echo_cart_icon, "Text for Item 2", "More text for Item 2"),
-            new pojo("Item 3", R.drawable.echo_cart_icon, "Text for Item 3", "More text for Item 3")
+            new pojo("Redmi", R.drawable.phone1, "12 pro max", "RS: 12999"),
+            new pojo("Redmi", R.drawable.phone2, "11 pro", "RS: 18999"),
+            new pojo("Vivo", R.drawable.phone4, "Y25 5g", "RS: 23999"),
+            new pojo("iqoo", R.drawable.phone5, "z6 5g", "RS: 20999"),
+            new pojo("Realme", R.drawable.phone6, "narzo 12", "RS: 12399"),
+            new pojo("Apple", R.drawable.phone7, "15 pro max", "RS: 127899"),
     };
 
     @Override

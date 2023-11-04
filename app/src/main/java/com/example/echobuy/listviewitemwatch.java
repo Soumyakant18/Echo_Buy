@@ -11,9 +11,14 @@ public class listviewitemwatch extends AppCompatActivity {
     private CustomAdapter customAdapter;
 
     private pojo[] items = {
-            new pojo("Item 1", R.drawable.echo_cart_icon, "Text for Item 1", "More text for Item 1"),
-            new pojo("Item 2", R.drawable.echo_cart_icon, "Text for Item 2", "More text for Item 2"),
-            new pojo("Item 3", R.drawable.echo_cart_icon, "Text for Item 3", "More text for Item 3")
+            new pojo("Pebble", R.drawable.watch1, "smart watch", "RS: 14999"),
+            new pojo("Fossil", R.drawable.watch2, "Casual watch", "RS: 23999"),
+            new pojo("Apple", R.drawable.watch3, "Smart watch", "RS: 2999"),
+            new pojo("Sonata", R.drawable.watch4, "gold watch", "RS: 3999"),
+            new pojo("Leaf", R.drawable.watch5, "Smart watch", "RS: 999"),
+            new pojo("RADO", R.drawable.watch6, "Digital watch", "RS: 62999"),
+            new pojo("Fossil", R.drawable.watch7, "Stripped watch", "RS: 45999"),
+            new pojo("Apple", R.drawable.watch8, "Bluettoth watch", "RS: 23999")
     };
 
     @Override
