@@ -11,9 +11,16 @@ public class listviewitembag extends AppCompatActivity {
     private CustomAdapter customAdapter;
 
     private pojo[] items = {
-            new pojo("Item 1", R.drawable.echo_cart_icon, "Text for Item 1", "More text for Item 1"),
-            new pojo("Item 2", R.drawable.echo_cart_icon, "Text for Item 2", "More text for Item 2"),
-            new pojo("Item 3", R.drawable.echo_cart_icon, "Text for Item 3", "More text for Item 3")
+            new pojo("SAFARI", R.drawable.bagsafari, "Safari new Arrival", "RS : 2999.00"),
+            new pojo("DNMX", R.drawable.bag2, "Smart Bag", "RS : 8999.00"),
+            new pojo("SPARKY", R.drawable.bag1, "Trek bag", "RS : 2099.00"),
+            new pojo("SAFARI", R.drawable.bag3, "Smart Bag", "RS : 8599.00"),
+            new pojo("SAFARI", R.drawable.bagsafari10, "Safari new Arrival", "RS : 399.00"),
+            new pojo("KILLER", R.drawable.bag4, "easy Hand Bag for Travel", "RS : 999.00"),
+            new pojo("DNMX", R.drawable.bag5, "Fancy Hand Bag ", "RS : 199.00"),
+            new pojo("LUNAR", R.drawable.bag6, "School and College Bag", "RS : 1099.00"),
+            new pojo("LUNAR", R.drawable.bag7, "School and College Bag", "RS : 2799.00"),
+            new pojo("LUNAR", R.drawable.bag8, "School and College Bag", "RS : 1059.00")
     };
 
 
