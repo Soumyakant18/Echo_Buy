@@ -10,9 +10,16 @@ public class listviewitemshoe extends AppCompatActivity {
     private CustomAdapter customAdapter;
 
     private pojo[] items = {
-            new pojo("Item 1", R.drawable.echo_cart_icon, "Text for Item 1", "More text for Item 1"),
-            new pojo("Item 2", R.drawable.echo_cart_icon, "Text for Item 2", "More text for Item 2"),
-            new pojo("Item 3", R.drawable.echo_cart_icon, "Text for Item 3", "More text for Item 3")
+            new pojo("PUMA", R.drawable.shoe1, "Puma Smash Valc Sneakers", "RS : 4999.00"),
+            new pojo("PUMA", R.drawable.shoe2, "Fendi Flow Sneakers for women", "RS : 1999.00"),
+            new pojo("PUMA", R.drawable.shoe3, "Ferrari Edition Shoes", "RS : 9999.00"),
+            new pojo("Action", R.drawable.shoe4, "Casual Slippers", "RS : 199.00"),
+            new pojo("SPARKX", R.drawable.shoe10, "Belt Scandals for men", "RS : 599.00"),
+            new pojo("BACA BUCCI", R.drawable.shoe8, "Brown Formal Shoes", "RS : 1999.00"),
+            new pojo("BACA BUCCI", R.drawable.shoe7, "Black Formal Shoes", "RS : 1999.00"),
+            new pojo("SPARKX", R.drawable.shoe9, "Sparks belt shoes", "RS : 499.00"),
+            new pojo("FILA", R.drawable.shoe5, "Regular Slippers", "RS : 199.00"),
+            new pojo("CROCS", R.drawable.shoe6, "White Crocs ", "RS : 2099.00")
     };
 
 
