@@ -11,9 +11,17 @@ public class listviewitempant extends AppCompatActivity {
     private CustomAdapter customAdapter;
 
     private pojo[] items = {
-            new pojo("Item 1", R.drawable.echo_cart_icon, "Text for Item 1", "More text for Item 1"),
-            new pojo("Item 2", R.drawable.echo_cart_icon, "Text for Item 2", "More text for Item 2"),
-            new pojo("Item 3", R.drawable.echo_cart_icon, "Text for Item 3", "More text for Item 3")
+            new pojo("ROADSTER", R.drawable.pant7, "White Trousers for Men", "RS : 2999.00"),
+            new pojo("DNMX", R.drawable.pant6, "Red Trousers", "RS : 599.00"),
+            new pojo("SPARKY", R.drawable.pant5, "Korean Styled pants for women", "RS : 2099.00"),
+            new pojo("KILLER", R.drawable.pant4, "Brown joggers", "RS : 599.00"),
+            new pojo("ROADSTER", R.drawable.pant1, "Black Trousers", "RS : 899.00"),
+            new pojo("KILLER", R.drawable.pant2, "Grey Trousers", "RS : 599.00"),
+            new pojo("DNMX", R.drawable.pant3, "Green Trousers", "RS : 599.00"),
+            new pojo("ROADSTER", R.drawable.pant8, "Grey Trousers", "RS : 599.00"),
+            new pojo("TURTLE", R.drawable.pant9, "Green Trousers", "RS : 599.00"),
+            new pojo("SPARKY", R.drawable.pant10, "Plain joggers", "RS : 599.00")
+
     };
 
     @Override

@@ -10,9 +10,16 @@ public class listviewitem extends AppCompatActivity {
     private CustomAdapter customAdapter;
 
     private pojo[] items = {
-            new pojo("Item 1", R.drawable.echo_cart_icon, "Text for Item 1", "More text for Item 1"),
-            new pojo("Item 2", R.drawable.echo_cart_icon, "Text for Item 2", "More text for Item 2"),
-            new pojo("Item 3", R.drawable.echo_cart_icon, "Text for Item 3", "More text for Item 3")
+            new pojo("WROGN", R.drawable.shirt1, "Half Neck Floral Printed Shirt", "RS : 2099.00"),
+            new pojo("ROADSTER", R.drawable.shirt2, "Blue Printed Casual Shirt", "RS: 899.00"),
+            new pojo("ONE8", R.drawable.shirt9, "Yellow Hoodie ", "RS: 1099.00"),
+            new pojo("LEVI'S", R.drawable.shirt5, "Plain white t-shirt for men", "RS: 899.00"),
+            new pojo("ONE8", R.drawable.shirt8, "Classic White Hoodie for men", "RS: 1999.00"),
+            new pojo("TECHNO", R.drawable.shirt7, "Sports Wear for men", "RS: 259.00"),
+            new pojo("TURTLE", R.drawable.shirt3, "Blue Printed Casuals Shirt", "RS: 1299.00"),
+            new pojo("US POLO", R.drawable.shirt4, " Green Polo Shirt", "RS: 499.00"),
+            new pojo("ROADSTER", R.drawable.shirt6, "Avengers Hoodie ", "RS: 2999.00"),
+            new pojo("PUMA", R.drawable.shirt10, "PumaxBMW T-shirt", "RS: 1999.00")
     };
 
     @Override

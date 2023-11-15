@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Signup_activity"
-    android:backgroundTint="@color/white">
+   android:background="@drawable/kolok">
 
-    <VideoView
-        android:layout_width="260dp"
-        android:layout_height="200dp"
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="42dp"
         android:layout_alignParentTop="true"
-        android:backgroundTint="@color/white"
-        android:id="@+id/videoViewone">
+       android:src="@drawable/mainlogo"
+        android:id="@+id/imageviewsignup">
 
-    </VideoView>
+    </ImageView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -26,6 +26,7 @@
         android:id="@+id/cardsignup"
         android:layout_centerHorizontal="true"
         app:cardCornerRadius="10dp"
+        android:backgroundTint="#DBE1F3"
         android:layout_centerInParent="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="260dp">
@@ -45,7 +46,7 @@
                 android:id="@+id/username"
                 android:hint="Username"
                 android:inputType="text"
-                android:textColorHint="#0CA697"
+                android:textColorHint="#6581D6"
                 android:drawableStart="@drawable/reguser"
                 android:drawablePadding="15dp"
                 android:ems="10" />
@@ -56,7 +57,7 @@
                 android:id="@+id/Email"
                 android:hint="User E-mail"
                 android:inputType="textEmailAddress"
-                android:textColorHint="#0CA697"
+                android:textColorHint="#6581D6"
                 android:drawableStart="@drawable/regmail"
                 android:drawablePadding="15dp"
                 android:layout_marginTop="17dp"
@@ -68,7 +69,7 @@
                 android:id="@+id/putpassword"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:textColorHint="#0CA697"
+                android:textColorHint="#6581D6"
                 android:drawableStart="@drawable/reglock"
                 android:drawablePadding="15dp"
                 android:layout_marginTop="17dp"
@@ -80,7 +81,7 @@
                 android:id="@+id/confirmpassord"
                 android:hint="Confirm Password"
                 android:inputType="textPassword"
-                android:textColorHint="#0CA697"
+                android:textColorHint="#6581D6"
                 android:drawableStart="@drawable/logpass"
                 android:drawablePadding="15dp"
                 android:layout_marginTop="17dp"
@@ -101,7 +102,7 @@
                 android:text="Register"
                 android:layout_marginTop="27dp"
                 android:layout_gravity="center"
-                android:backgroundTint="@color/lightgreen"/>
+                android:backgroundTint="#6581D6"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
