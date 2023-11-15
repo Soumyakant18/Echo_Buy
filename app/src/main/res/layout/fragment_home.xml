@@ -5,29 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
-    android:background="@drawable/yuoip">
+   android:backgroundTint="@color/white">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textviewfashion"
-        android:textStyle="bold"
-        android:drawableStart="@drawable/echo_item_icon"
-        android:drawablePadding="9dp"
-        android:textSize="20dp"
-        android:textAlignment="center"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:padding="10dp"
-        android:textColor="@color/lightgreen"
-        android:text="Choose your latest style">
-
-    </TextView>
     <ScrollView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
         android:id="@+id/mainline"
-        android:layout_below="@+id/textviewfashion"
+
         android:scrollbarThumbVertical="@color/lightgreen"
         android:scrollbarSize="0.5sp"
         android:scrollbarStyle="outsideOverlay">
@@ -40,27 +24,176 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:padding="10dp">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="300dp"
-            android:layout_marginLeft="47dp"
+            android:layout_width="394dp"
+
             android:layout_height="200dp"
             app:cardCornerRadius="10dp"
             android:backgroundTint="@color/white"
             >
-            <VideoView
-                android:id="@+id/videoView"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent">
+          <ViewFlipper
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:flipInterval="3000"
+              android:autoStart="true"
+              android:inAnimation="@android:anim/slide_out_right"
+              android:outAnimation="@android:anim/slide_in_left">
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/sale4">
 
-            </VideoView>
+              </ImageView>
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/sale3">
+
+              </ImageView>
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/sale5">
+
+              </ImageView>
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/sale7">
+
+              </ImageView>
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/sale6">
+
+              </ImageView>
+
+
+          </ViewFlipper>
+
 
 
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 
+
+        <HorizontalScrollView
+            android:id="@+id/axisline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:scrollbarSize="0sp"
+            android:scrollbarStyle="outsideOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="9px">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                      android:id="@+id/shape1"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="15dp"
+android:backgroundTint="#ffa368"
+                    >
+                    <ImageView
+                        android:id="@+id/circle1"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/logomann" />
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/shape2"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="15dp"
+                    android:backgroundTint="#ffa368"
+                    android:layout_marginLeft="5dp"
+                    >
+                    <ImageView
+                        android:id="@+id/circle2"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:scaleType="centerCrop"
+
+                        android:src="@drawable/logowomen" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/shape3"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="#ffa368"
+                    >
+                    <ImageView
+                        android:id="@+id/circle3"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:scaleType="centerCrop"
+
+                        android:src="@drawable/perfume" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/shape4"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="#ffa368"
+                    >
+                    <ImageView
+                        android:id="@+id/circle4"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:scaleType="centerCrop"
+
+                        android:src="@drawable/logophone" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/shape5"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:backgroundTint="#ffa368"
+                    >
+                    <ImageView
+                        android:id="@+id/circle5"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:scaleType="centerCrop"
+
+                        android:src="@drawable/logosofa" />
+                </androidx.cardview.widget.CardView>
+                <!-- Add more ImageViews for additional indicators as needed -->
+
+            </LinearLayout>
+        </HorizontalScrollView>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,12 +205,13 @@
                 android:layout_height="180dp"
                 android:id="@+id/cardshirt"
                 app:cardCornerRadius="10dp"
-                android:background="@color/white">
+                android:backgroundTint="#7F9CE8">
 
                     <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/jacket">
+                    android:layout_width="650px"
+                    android:layout_height="match_parent"
+                        android:layout_marginLeft="-27dp"
+                    android:src="@drawable/logoshirt">
                 </ImageView>
 
 
@@ -87,13 +221,14 @@
                 android:layout_width="185dp"
                 android:layout_height="180dp"
                 android:id="@+id/cardshoe"
-                android:background="@color/white"
+                android:backgroundTint="#7F9CE8"
                 android:layout_marginLeft="20dp"
                 app:cardCornerRadius="10dp" >
+
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/shoe">
+                    android:layout_width="510px"
+                    android:layout_height="510px"
+                    android:src="@drawable/logoshoe">
 
                 </ImageView>
             </androidx.cardview.widget.CardView>
@@ -110,12 +245,14 @@
                 android:layout_width="185dp"
                 android:layout_height="180dp"
                 android:id="@+id/cardpant"
-                android:background="@color/white"
+                android:backgroundTint="#7F9CE8"
                 app:cardCornerRadius="10dp">
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/pantsimg">
+                    android:layout_width="370px"
+                    android:layout_height="350px"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/pantlogo">
 
                 </ImageView>
 
@@ -126,12 +263,17 @@
                 android:layout_height="180dp"
                 android:id="@+id/cardwatch"
                 android:layout_marginLeft="20dp"
-                android:background="@color/white"
+                android:backgroundTint="#7F9CE8"
+
                 app:cardCornerRadius="10dp" >
+
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/wtchimage">
+                    android:layout_width="320px"
+                    android:layout_height="320px"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/logowatch">
 
                 </ImageView>
             </androidx.cardview.widget.CardView>
@@ -147,12 +289,12 @@
                 android:layout_width="185dp"
                 android:layout_height="180dp"
                 android:id="@+id/cardfurn"
-                android:background="@color/white"
+                android:backgroundTint="#7F9CE8"
                 app:cardCornerRadius="10dp">
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/sofa">
+                    android:src="@drawable/logosofa">
 
                 </ImageView>
 
@@ -163,12 +305,14 @@
                 android:layout_height="180dp"
                 android:layout_marginLeft="20dp"
                 android:id="@+id/cardphone"
-                android:background="@color/white"
+                android:backgroundTint="#7F9CE8"
                 app:cardCornerRadius="10dp" >
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/mobiles">
+                    android:layout_width="370px"
+                    android:layout_height="370px"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/logophone">
 
                 </ImageView>
             </androidx.cardview.widget.CardView>
@@ -184,12 +328,12 @@
                 android:layout_width="185dp"
                 android:layout_height="180dp"
                 android:id="@+id/cardbag"
-                android:background="@color/white"
+                android:backgroundTint="#7F9CE8"
                 app:cardCornerRadius="10dp">
 <ImageView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-            android:src="@drawable/bag">
+            android:src="@drawable/logobag">
 
 </ImageView>
             </androidx.cardview.widget.CardView>
@@ -199,12 +343,12 @@
                 android:layout_height="180dp"
                 android:layout_marginLeft="20dp"
                 android:id="@+id/cardtoy"
-                android:background="@color/white"
+                android:backgroundTint="#7F9CE8"
                 app:cardCornerRadius="10dp" >
                 <ImageView
-                    android:layout_width="match_parent"
+                    android:layout_width="500px"
                     android:layout_height="match_parent"
-                    android:src="@drawable/toy">
+                    android:src="@drawable/logotoy">
 
                 </ImageView>
 

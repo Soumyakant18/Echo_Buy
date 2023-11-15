@@ -1,12 +1,10 @@
 package com.example.echobuy.ui.home;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.VideoView;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -27,7 +25,7 @@ import com.example.echobuy.listviewitemwatch;
 public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
-    private VideoView videoView;
+
 private CardView crd1,crd2,crd3,crd4,crd5,crd6,crd7,crd8;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -37,7 +35,7 @@ private CardView crd1,crd2,crd3,crd4,crd5,crd6,crd7,crd8;
         binding = FragmentHomeBinding.inflate (inflater, container, false);
         View root = binding.getRoot ( );
 
-        videoView = root.findViewById (R.id.videoView);
+
 
         crd1 = root.findViewById (R.id.cardshirt);
         crd2 = root.findViewById (R.id.cardshoe);
@@ -47,9 +45,7 @@ private CardView crd1,crd2,crd3,crd4,crd5,crd6,crd7,crd8;
         crd6 = root.findViewById (R.id.cardphone);
         crd7 = root.findViewById (R.id.cardbag);
         crd8 = root.findViewById (R.id.cardtoy);
-        Uri videoUri = Uri.parse("android.resource://" + requireActivity().getPackageName() + "/" + R.raw.shop);
-        videoView.setVideoURI(videoUri);
-        videoView.start();
+
 
         crd1.setOnClickListener(new View.OnClickListener() {
             @Override
