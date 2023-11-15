@@ -194,15 +194,30 @@ android:backgroundTint="#ffa368"
 
             </LinearLayout>
         </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sponsered Products"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="17px"
+            android:drawableStart="@drawable/arrowrightt_24"
 
+
+
+
+            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="10dp">
 
+
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
-                android:layout_height="180dp"
+                android:layout_height="190dp"
                 android:id="@+id/cardshirt"
                 app:cardCornerRadius="10dp"
                 android:backgroundTint="#7F9CE8">
@@ -211,15 +226,26 @@ android:backgroundTint="#ffa368"
                     android:layout_width="650px"
                     android:layout_height="match_parent"
                         android:layout_marginLeft="-27dp"
+                        android:layout_marginTop="-28dp"
+
                     android:src="@drawable/logoshirt">
                 </ImageView>
 
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="From  ₹599 "
+    android:textColor="@color/white"
+    android:layout_marginLeft="50dp"
+    android:textStyle="bold"
+    android:layout_marginTop="158dp">
 
+</TextView>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
-                android:layout_height="180dp"
+                android:layout_height="190dp"
                 android:id="@+id/cardshoe"
                 android:backgroundTint="#7F9CE8"
                 android:layout_marginLeft="20dp"
@@ -231,10 +257,36 @@ android:backgroundTint="#ffa368"
                     android:src="@drawable/logoshoe">
 
                 </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="upto 60% off"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="50dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="158dp">
+
+                </TextView>
             </androidx.cardview.widget.CardView>
 
 
         </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="New Arrival"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="17px"
+            android:drawableStart="@drawable/arrowrightt_24"
+
+
+
+
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -243,24 +295,34 @@ android:backgroundTint="#ffa368"
 
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
-                android:layout_height="180dp"
+                android:layout_height="190dp"
                 android:id="@+id/cardpant"
                 android:backgroundTint="#7F9CE8"
                 app:cardCornerRadius="10dp">
                 <ImageView
                     android:layout_width="370px"
                     android:layout_height="350px"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="18dp"
                     android:layout_marginLeft="20dp"
                     android:src="@drawable/pantlogo">
 
                 </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From  ₹899 "
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="55dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="158dp">
+
+                </TextView>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
-                android:layout_height="180dp"
+                android:layout_height="190dp"
                 android:id="@+id/cardwatch"
                 android:layout_marginLeft="20dp"
                 android:backgroundTint="#7F9CE8"
@@ -271,15 +333,40 @@ android:backgroundTint="#ffa368"
                     android:layout_width="320px"
                     android:layout_height="320px"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="20dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/logowatch">
 
                 </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From  ₹1599 "
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="50dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="158dp">
+
+                </TextView>
             </androidx.cardview.widget.CardView>
 
 
         </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="People also Viewed"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="17px"
+            android:drawableStart="@drawable/arrowrightt_24"
+
+
+
+
+            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -287,7 +374,7 @@ android:backgroundTint="#ffa368"
 
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
-                android:layout_height="180dp"
+                android:layout_height="190dp"
                 android:id="@+id/cardfurn"
                 android:backgroundTint="#7F9CE8"
                 app:cardCornerRadius="10dp">
@@ -297,12 +384,22 @@ android:backgroundTint="#ffa368"
                     android:src="@drawable/logosofa">
 
                 </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="upto 70% off"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="50dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="158dp">
+
+                </TextView>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
-                android:layout_height="180dp"
+                android:layout_height="190dp"
                 android:layout_marginLeft="20dp"
                 android:id="@+id/cardphone"
                 android:backgroundTint="#7F9CE8"
@@ -310,15 +407,40 @@ android:backgroundTint="#ffa368"
                 <ImageView
                     android:layout_width="370px"
                     android:layout_height="370px"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="16dp"
                     android:src="@drawable/logophone">
 
                 </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From  ₹29,899 "
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="50dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="158dp">
+
+                </TextView>
             </androidx.cardview.widget.CardView>
 
 
         </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Grab or Gone"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="17px"
+            android:drawableStart="@drawable/arrowrightt_24"
+
+
+
+
+            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -326,21 +448,33 @@ android:backgroundTint="#ffa368"
 
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
-                android:layout_height="180dp"
+                android:layout_height="190dp"
                 android:id="@+id/cardbag"
                 android:backgroundTint="#7F9CE8"
                 app:cardCornerRadius="10dp">
 <ImageView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="350px"
+    android:layout_height="350px"
+    android:layout_marginLeft="70px"
+    android:layout_marginTop="30px"
             android:src="@drawable/logobag">
 
 </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="upto 40% off"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="50dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="158dp">
+
+                </TextView>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="185dp"
-                android:layout_height="180dp"
+                android:layout_height="190dp"
                 android:layout_marginLeft="20dp"
                 android:id="@+id/cardtoy"
                 android:backgroundTint="#7F9CE8"
@@ -351,6 +485,16 @@ android:backgroundTint="#ffa368"
                     android:src="@drawable/logotoy">
 
                 </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="upto 60% off"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="50dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="158dp">
+
+                </TextView>
 
             </androidx.cardview.widget.CardView>
 
@@ -359,5 +503,9 @@ android:backgroundTint="#ffa368"
     </LinearLayout>
 
 </ScrollView>
+
+
+
+
 
 </RelativeLayout>
