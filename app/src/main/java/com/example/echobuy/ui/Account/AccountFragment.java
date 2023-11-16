@@ -14,8 +14,11 @@ import com.example.echobuy.DatabaseHelper;
 import com.example.echobuy.R;
 import com.example.echobuy.User;
 import com.example.echobuy.R;
+
 import com.example.echobuy.databinding.FragmentAccountBinding;
 import com.example.echobuy.loginactivity;
+
+import java.util.List;
 
 import java.util.List;
 
@@ -25,6 +28,7 @@ public class AccountFragment extends Fragment {
     private DatabaseHelper databaseHelper;
 
     private Button btnMoveToActivity;
+
     private FragmentAccountBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
