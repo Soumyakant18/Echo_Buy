@@ -1,22 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.order.OrderFragment">
+    tools:context=".ui.order.OrderFragment"
+    android:background="@drawable/logoback">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:backgroundTint="#FF9800"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="place  order">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/brandImageInCart"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        />
 
     <TextView
-        android:id="@+id/text_gallery"
-        android:layout_width="match_parent"
+        android:id="@+id/brandNameInCart"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_below="@id/brandImageInCart"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:id="@+id/productNameInCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_below="@id/brandNameInCart"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:id="@+id/priceInCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/productNameInCart"
+        android:layout_marginTop="8dp"
+
+        android:layout_marginLeft="30dp" />
+
+
+
+        <TextView
+            android:id="@+id/orderto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productNameInCart"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="123dp"
+            android:text="Order To :"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productNameInCart"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="123dp"
+            android:hint="NAME"
+            android:textSize="24dp" />
+
+</RelativeLayout>
