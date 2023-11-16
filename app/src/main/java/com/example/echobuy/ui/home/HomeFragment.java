@@ -30,7 +30,11 @@ public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
 
 private CardView crd1,crd2,crd3,crd4,crd5,crd6,crd7,crd8;
+<<<<<<< HEAD
 private CardView men,women,perfume,phone,sofa;
+=======
+
+>>>>>>> 9dc3dd3e2f8224690733c9665762b27fdbe58d06
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HomeViewModel homeViewModel =
