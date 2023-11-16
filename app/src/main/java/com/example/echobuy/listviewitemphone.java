@@ -2,7 +2,6 @@ package com.example.echobuy;
 
 import android.os.Bundle;
 import android.widget.ListView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class listviewitemphone extends AppCompatActivity {

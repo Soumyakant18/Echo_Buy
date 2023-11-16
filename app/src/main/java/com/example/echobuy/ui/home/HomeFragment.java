@@ -21,12 +21,16 @@ import com.example.echobuy.listviewitemphone;
 import com.example.echobuy.listviewitemshoe;
 import com.example.echobuy.listviewitemtoy;
 import com.example.echobuy.listviewitemwatch;
+import com.example.echobuy.mencategory;
+import com.example.echobuy.perfumecategory;
+import com.example.echobuy.womencategory;
 
 public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
 
 private CardView crd1,crd2,crd3,crd4,crd5,crd6,crd7,crd8;
+private CardView men,women,perfume,phone,sofa;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HomeViewModel homeViewModel =
@@ -45,6 +49,11 @@ private CardView crd1,crd2,crd3,crd4,crd5,crd6,crd7,crd8;
         crd6 = root.findViewById (R.id.cardphone);
         crd7 = root.findViewById (R.id.cardbag);
         crd8 = root.findViewById (R.id.cardtoy);
+        men = root.findViewById(R.id.shape1);
+        women = root.findViewById(R.id.shape2);
+        perfume = root.findViewById(R.id.shape3);
+        phone = root.findViewById(R.id.shape4);
+        sofa = root.findViewById(R.id.shape5);
 
 
         crd1.setOnClickListener(new View.OnClickListener() {
@@ -115,6 +124,56 @@ private CardView crd1,crd2,crd3,crd4,crd5,crd6,crd7,crd8;
             public void onClick(View v) {
                 // Navigate to the itemlist fragment when crd1 is clicked
                 Intent intent = new Intent(getActivity(), listviewitemtoy.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+
+        men.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), mencategory.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+
+        women.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), womencategory.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+
+        perfume.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), perfumecategory.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+
+        sofa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), listviewitemfurn.class);
+                intent.putExtra("key", "value");
+                startActivity(intent);
+            }
+        });
+
+        phone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to the itemlist fragment when crd1 is clicked
+                Intent intent = new Intent(getActivity(), listviewitemphone.class);
                 intent.putExtra("key", "value");
                 startActivity(intent);
             }
