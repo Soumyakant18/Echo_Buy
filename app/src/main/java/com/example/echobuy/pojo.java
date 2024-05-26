@@ -1,6 +1,8 @@
 package com.example.echobuy;
 
-public class pojo {
+import java.io.Serializable;
+
+public class pojo implements Serializable {
     private String title;
     private int imageResource;
     private String text2;

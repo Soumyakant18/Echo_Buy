@@ -1,6 +1,9 @@
 package com.example.echobuy;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,5 +34,17 @@ public class listviewitemtoy extends AppCompatActivity {
 
         // Set the adapter for the ListView
         listviewtoy.setAdapter(customAdapter);
+        listviewtoy.setOnItemClickListener (new AdapterView.OnItemClickListener ( ) {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                pojo selectedItem = items[position];
+
+                // Start TestActivity and pass the selected item's data
+                Intent intent = new Intent(listviewitemtoy.this, testactivity.class);
+                intent.putExtra("SELECTED_ITEM", selectedItem);
+                startActivity(intent);
+            }
+
+        });
     }
 }

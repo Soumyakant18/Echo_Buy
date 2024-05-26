@@ -7,76 +7,48 @@
     tools:context=".ui.order.OrderFragment"
     android:background="@drawable/logoback">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:backgroundTint="#FF9800"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:text="place  order">
+ 
 
-    </Button>
-
-    <ImageView
-        android:id="@+id/brandImageInCart"
-        android:layout_width="match_parent"
-        android:layout_height="260dp"
-        android:layout_alignParentTop="true"
-        />
 
     <TextView
-        android:id="@+id/brandNameInCart"
+        android:id="@+id/orderto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:layout_below="@id/brandImageInCart"
-        android:layout_marginTop="12dp"
 
-        android:layout_marginLeft="30dp" />
+
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="123dp"
+
+        android:text="Order To :"
+        android:textSize="24dp" />
 
     <TextView
-        android:id="@+id/productNameInCart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:layout_below="@id/brandNameInCart"
-        android:layout_marginTop="8dp"
-
-        android:layout_marginLeft="30dp" />
-
-    <TextView
-        android:id="@+id/priceInCart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:layout_below="@id/productNameInCart"
-        android:layout_marginTop="8dp"
-
-        android:layout_marginLeft="30dp" />
-
-
-
-        <TextView
-            android:id="@+id/orderto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/productNameInCart"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="123dp"
-            android:text="Order To :"
-            android:textSize="24dp" />
-
-        <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/productNameInCart"
-            android:layout_marginLeft="170dp"
+
+            android:layout_marginLeft="240dp"
             android:layout_marginTop="123dp"
             android:hint="NAME"
             android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/naming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:layout_centerHorizontal="true"
+        android:text="your order will deliver soon"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listorder"
+        android:layout_below="@id/naming"
+        android:layout_marginTop="130dp"/>
 
 </RelativeLayout>

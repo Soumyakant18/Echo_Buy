@@ -61,11 +61,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 } while (cursor.moveToNext());
             }
         } else {
-            // Log an error or handle the situation where there are no rows in the Cursor
 
         }
 
-// Close the Cursor to free up resources
+
         cursor.close();
 
         return userList;

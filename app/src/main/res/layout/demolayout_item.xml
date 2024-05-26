@@ -10,8 +10,11 @@
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_alignParentTop="true"
-        android:layout_margin="11dp"
 
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="11dp"
         android:src="@drawable/cart_spice" />
 
     <TextView
@@ -50,12 +53,4 @@
         android:layout_marginLeft="210dp"
         android:layout_marginTop="27dp"/>
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="30dp"
-        android:layout_height="36dp"
-        android:src="@drawable/cart_spice"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="135dp"
-        android:layout_marginRight="19dp"/>
 </RelativeLayout>

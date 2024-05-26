@@ -35,16 +35,16 @@ private TextView textViewlogin;
              String username = editTextname.getText().toString().trim();
              String password = editTextpassword.getText().toString().trim();
 
-             // Check if username and password match from the database
+
              if (validateLogin(username, password)) {
-                 // Successful login, navigate to another activity (e.g., home page)
+
                  Toast.makeText(loginactivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                 // Replace 'HomePageActivity' with the name of your home page activity
+
                  Intent intent = new Intent(loginactivity.this, menupage_activity.class);
                  startActivity(intent);
-                 finish(); // Close this login activity
+                 finish();
              } else {
-                 // Invalid login, show error message
+
                  Toast.makeText(loginactivity.this, "Invalid username or password", Toast.LENGTH_SHORT).show();
              }
          }
@@ -61,7 +61,7 @@ private TextView textViewlogin;
     private boolean validateLogin(String username, String password) {
         SQLiteDatabase db = dbHelper.getReadableDatabase();
         String[] projection = {"username", "password"};
-        String selection = "username = ? AND password = ?";
+        S0tring selection = "username = ? AND password = ?";
         String[] selectionArgs = {username, password};
 
         Cursor cursor = db.query("Users", projection, selection, selectionArgs, null, null, null);
